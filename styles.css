@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --box-height: 30px;
+  --box-width: 200px;
+}
+
+body {
+  background: rgb(243, 221, 221);
+  font-family: sans-serif;
+}
+
+.login {
+  display: flex;
+  background: rgb(241, 241, 241);
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  justify-content: space-around;
+  margin: auto;
+  padding-bottom: 10px;
+  height: 200px;
+  width: 300px;
+}
+
+.hr {
+  color: rgb(235, 235, 235);
+  size: 1;
+  width: 95%;
+}
+
+.login-name {
+  font-size: 32px;
+  padding-top: 10px;
+}
+
+.login-user {
+  width: var(--box-width);
+  width: 200px;
+  height: var(--box-height);
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.login-password {
+  width: var(--box-width);
+  height: var(--box-height);
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.login-buttom {
+  width: var(--box-width);
+  height: 34px;
+  font-size: 20px;
+  border-radius: 10px;
+  background: rgb(107, 107, 255);
+  color: rgb(247, 245, 245);
+}
